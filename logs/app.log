@@ -1,0 +1,34 @@
+2020-01-26 08:59:56,776 ERROR c.t.MessagingClient [main] MessageApp properties Logged !!!
+java.io.FileNotFoundException: -map (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_161]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_161]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_161]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_161]
+	at com.tomstlouis.config.MessageAppProperties.loadProperties(MessageAppProperties.java:49) ~[classes/:?]
+	at com.tomstlouis.MessagingClient.getProperties(MessagingClient.java:105) ~[classes/:?]
+	at com.tomstlouis.MessagingClient.main(MessagingClient.java:30) [classes/:?]
+2020-01-26 09:02:31,456 ERROR c.t.MessagingClient [main] Command option requires a value
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.tomstlouis.MessagingClient.parseCommands(MessagingClient.java:62) [classes/:?]
+	at com.tomstlouis.MessagingClient.main(MessagingClient.java:26) [classes/:?]
+2020-01-26 09:02:31,475 ERROR c.t.MessagingClient [main] MessageApp properties Logged !!!
+java.io.FileNotFoundException: -map (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_161]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_161]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_161]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_161]
+	at com.tomstlouis.config.MessageAppProperties.loadProperties(MessageAppProperties.java:49) ~[classes/:?]
+	at com.tomstlouis.MessagingClient.getProperties(MessagingClient.java:104) ~[classes/:?]
+	at com.tomstlouis.MessagingClient.main(MessagingClient.java:30) [classes/:?]
+2020-01-26 09:09:43,499 INFO c.t.MessagingClient [main] -mfile Command option requires a value
+2020-01-26 09:09:43,574 ERROR c.t.MessagingClient [main] MessageApp properties Logged !!!
+java.io.FileNotFoundException: -map (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_161]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_161]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_161]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_161]
+	at com.tomstlouis.config.MessageAppProperties.loadProperties(MessageAppProperties.java:49) ~[classes/:?]
+	at com.tomstlouis.MessagingClient.getProperties(MessagingClient.java:106) ~[classes/:?]
+	at com.tomstlouis.MessagingClient.main(MessagingClient.java:30) [classes/:?]
+2020-01-26 09:44:10,041 INFO c.t.MessagingClient [main] Properties{http.status.200.level=6,, http.status.100.range=100-199, http.status.400.msg=Http Response Status: Client errors (400-499), http.status.300.msg=Http Response Status: Redirects (300-399), http.status.200.msg=Http Response Status: Successful responses (200-299), http.status.undefined.range=???, http.status.600.msg=Default: Debug-level messages, http.status.600.level=7,, http.status.500.msg=Http Response Status: Server errors (500-599), hostname=127.0.0.1, http.status.400.level=3,, http.status.500.range=500-599, http.status.300.range=300-399, http.status.200.range=200-299, http.status.100.level=6,, http.status.100.msg=Http Response Status: Informational responses (100-199), gelfversion=1.1, http.status.500.level=2,, http.status.400.range=400-499, http.status.300.level=4,}
+2020-01-26 09:55:02,559 INFO c.t.MessagingClient [main] Properties{http.status.200.level=6,, http.status.100.range=100-199, http.status.400.msg=Http Response Status: Client errors (400-499), http.status.300.msg=Http Response Status: Redirects (300-399), http.status.200.msg=Http Response Status: Successful responses (200-299), http.status.undefined.range=???, http.status.600.msg=Default: Debug-level messages, http.status.600.level=7,, http.status.500.msg=Http Response Status: Server errors (500-599), hostname=Toms-MacBook-Pro.local, http.status.400.level=3,, http.status.500.range=500-599, http.status.300.range=300-399, http.status.200.range=200-299, http.status.100.level=6,, http.status.100.msg=Http Response Status: Informational responses (100-199), gelfversion=1.1, http.status.500.level=2,, http.status.400.range=400-499, http.status.300.level=4,}
