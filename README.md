@@ -2,8 +2,9 @@ Graylog Messaging Client App
 ============================
 
 [![Github](https://github.com/jornaman/graylog2-client)]graylog2-client
+[![logstash-gelf](https://github.com/mp911de/logstash-gelf/)]
 
-My notes .
+A number of classes for creating GelfMessages were pulled from Mark Paluch's Logstash-gelf project. 
 
 Usage
 -----

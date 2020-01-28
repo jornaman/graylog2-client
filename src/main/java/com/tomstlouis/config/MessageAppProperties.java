@@ -22,7 +22,7 @@ public final class MessageAppProperties extends Properties {
 		setProperty(defaults[1][0], defaults[1][1]);
 	}
 
-	public MessageAppProperties(String fileName) throws Exception {
+	private MessageAppProperties(String fileName) throws Exception {
 		this();
 		this.loadProperties(fileName);
 	}
@@ -32,6 +32,14 @@ public final class MessageAppProperties extends Properties {
 	{
 		if (single_instance == null)
 			single_instance = new MessageAppProperties();
+
+		return single_instance;
+	}
+
+	public static MessageAppProperties getInstance(String fileName) throws Exception
+	{
+		if (single_instance == null)
+			single_instance = new MessageAppProperties(fileName);
 
 		return single_instance;
 	}
